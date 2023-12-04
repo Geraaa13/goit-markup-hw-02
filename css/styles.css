@@ -8,7 +8,7 @@ ul {
   list-style-type: none;
 }
 
-.top-line-bg {
+.header-bg {
   background-color: #ffffff;
 }
 
@@ -23,13 +23,12 @@ ul {
   color: #4d5ae5;
 }
 
-.span-logo {
+.logo-span {
   color: #2e2f42;
 }
 
 .top-line-nav {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -41,29 +40,28 @@ ul {
   color: #404bbf;
 }
 
-.address {
+.contacts {
   font-style: normal;
 }
 
-.contacts {
-  font-size: 16px;
+.contacts-info {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #434455;
 }
 
-.contacts:hover,
-.contacts:focus {
+.contacts-info:hover,
+.contacts-info:focus {
   color: #404bbf;
 }
 
-.dark-bg {
+.hero-bg {
   background-color: #2e2f42;
   text-align: center;
 }
 
-.title {
+.title-main {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -72,11 +70,9 @@ ul {
 }
 
 .custom-button {
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
@@ -87,7 +83,16 @@ ul {
   background-color: #404bbf;
 }
 
-.third {
+.title-second {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.title-third {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -102,24 +107,15 @@ ul {
   color: #434455;
 }
 
-.light-bg {
+.team-card-bg {
   background-color: #f4f4fd;
-}
-
-.second {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
 }
 
 .team-card {
   background-color: #ffffff;
 }
 
-.span-logo-footer {
+.logo-span-footer {
   color: #f4f4fd;
 }
 
