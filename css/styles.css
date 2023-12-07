@@ -4,8 +4,43 @@ body {
   background-color: #ffffff;
 }
 
-ul {
+/* Reset styles */
+ul,
+ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Styles */
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-bg {
@@ -59,6 +94,8 @@ ul {
 .hero-bg {
   background-color: #2e2f42;
   text-align: center;
+  height: 600px;
+  margin-bottom: 120px;
 }
 
 .title-main {
@@ -67,6 +104,11 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  width: 496px;
+  padding-top: 188px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .custom-button {
@@ -75,7 +117,11 @@ ul {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
-  cursor: pointer;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
 }
 
 .custom-button:hover,
@@ -90,6 +136,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .title-third {
