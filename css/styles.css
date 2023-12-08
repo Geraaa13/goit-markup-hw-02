@@ -1,3 +1,9 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -94,7 +100,6 @@ button {
 .hero-bg {
   background-color: #2e2f42;
   text-align: center;
-  height: 600px;
   margin-bottom: 120px;
 }
 
@@ -122,6 +127,7 @@ button {
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
+  margin-bottom: 188px;
 }
 
 .custom-button:hover,
@@ -129,7 +135,9 @@ button {
   background-color: #404bbf;
 }
 
-.title-second {
+.target-title,
+.team-title,
+.portfolio-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -139,7 +147,9 @@ button {
   margin-bottom: 72px;
 }
 
-.title-third {
+.target-goal,
+.team-names,
+.portfolio-product {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -147,7 +157,9 @@ button {
   color: #2e2f42;
 }
 
-.text {
+.target-text,
+.team-text,
+.portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
