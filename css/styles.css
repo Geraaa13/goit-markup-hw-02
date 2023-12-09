@@ -40,6 +40,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 /* Styles */
 .container {
   width: 1158px;
